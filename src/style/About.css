@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #101010;
+    color: #fff;
+  }
+  
+  .about-page {
+    padding: 100px 20px;
+  }
+  
+  /* Header Section */
+  .about-header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    color: #ffd700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .about-subtitle {
+    font-size: 1.2rem;
+    color: #ccc;
+    letter-spacing: 1px;
+  }
+  
+  /* Content Section */
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.5);
+  }
+  
+  .about-right {
+    flex: 2;
+    max-width: 600px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #ccc;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #101010;
+    background: #ffd700;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #fff;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-left {
+      margin-bottom: 30px;
+    }
+  
+    .profile-picture {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .about-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .about-text p {
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Social Links Section */
+.social-links {
+  margin-top: -35px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 35rem;
+}
+
+.social-link {
+  color: #ffffff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+  

@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #101010;
+    color: #fff;
+  }
+  
+  .contact-page {
+    padding: 100px 20px;
+  }
+  
+  .contact-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #ffd700;
+    text-transform: uppercase;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Contact Information Section */
+  .contact-info {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ccc;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .contact-item i {
+    font-size: 1.5rem;
+    color: #ffd700;
+  }
+  
+  .contact-item span {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  /* Contact Form Section */
+  .contact-form-wrapper {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffd700;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #1c1c1c;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #777;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 15px;
+    background: #ffd700;
+    color: #101010;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #fff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-info,
+    .contact-form-wrapper {
+      max-width: 100%;
+    }
+  }
+  
