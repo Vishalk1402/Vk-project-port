@@ -29,7 +29,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-left">
             <motion.img
-              src="vk.jpeg"
+              src="Pas.jpeg"
               alt="About Me"
               className="profile-picture"
               initial={{ scale: 0.8, opacity: 0 }}
@@ -46,26 +46,27 @@ const About = () => {
               transition={{ duration: 1 }}
               viewport={{ once: true }}
             >
-              <h2>Hi, I'm [Vishal Koli]</h2>
+              <h2>Hi, I'm Vishal Koli</h2>
               <p>
-                I'm a passionate software developer with a knack for turning
-                ideas into reality. With a strong background in web development,
-                programming, and design, I love creating innovative solutions
-                that make a difference. My journey in tech began with curiosity
-                and has grown into a fulfilling career.
+                Enthusiastic Web Developer dedicated to building visually appealing
+                and highly functional websites. Eager to apply a strong foundation in 
+                modern web technologies to develop efficient and user-friendly solutions.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                brainstorming creative projects, or indulging in my hobbies
-                like reading, traveling, and playing.
+               <span>Languages:</span>  JavaScript,Java, SQL. <br />
+               <span>Front-End: </span> ReactJS, Bootstrap, Figma, Tailwind CSS, HTML. <br />
+                <span>Back-End:</span> Express Js, Node Js. <br />
+                <span>Database:</span> MySQL,MongoDB. <br />
+                <span>Data Visualization:</span> Power BI. <br />
+                <span>Version Control:</span> VS Code, GitHub, Git. <br />
               </p>
               <motion.a
-                href="https://www.linkedin.com/in/vishal-koli"
+                href="https://1drv.ms/b/c/2054d539aeef2cd9/ES-mkMWyD-9Dms0hCZ4XbI4BOIxNRCm8ph-C3-4HlyIYVQ?e=KnfSgY"
                 className="cta-button"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Let's Connect
+                Resume
               </motion.a>
             </motion.div>
           </div>
