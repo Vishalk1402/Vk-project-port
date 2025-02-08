@@ -16,7 +16,7 @@ const Projects = () => {
             title: "direct market access app for farmers",
             description: " in progress... ",
             image: "project2.jpg",
-            link: "#",
+            link: "https://c4e8814e.dma-forfarmer.pages.dev",
         },
        
     ];
